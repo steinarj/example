@@ -16,7 +16,7 @@ app.use("/api",router);
 //    app.use(express.static(__dirname + '/web/build/'+ process.env.NODE_ENV +'/administration/'));
 
 //if(process.env.NODE_ENV == 'development')
-    app.use(express.static(__dirname + '/test/'));
+    app.use(express.static(__dirname + '/build/production/'));
 
 // ROUTES FOR OUR API
 // =============================================================================
